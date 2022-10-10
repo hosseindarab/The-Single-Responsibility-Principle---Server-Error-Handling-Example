@@ -2,6 +2,6 @@ import { HttpClient } from "./http-client"
 
 let http = new HttpClient()
 
-http.get("https://httpstat.us/401").then(data => {
+http.get("https://httpstat.us/200").then(data => {
     console.log(data)
 })
